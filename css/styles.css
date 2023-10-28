@@ -1,0 +1,137 @@
+body{
+    background-color: #F3EFEA;
+    font-family: 'Times New Roman', Times, serif;
+    color: #323232;
+    font-size: 18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    background-color: #A1B29F;
+    color: #F6F6F6;
+}
+ul{
+    list-style-type: none;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-list li:first-child{
+    margin-right: 82px;
+}
+.nav-list li:last-child{
+    margin-left: 82px;
+}
+.nav-list a:hover{
+    color: #426566;
+    text-decoration: underline;
+}
+.logo{
+    margin-left: 270px;
+    margin-right: 270px;
+}
+.sidebar .photo{
+    margin-bottom: 10px;
+}
+h1{
+    color: #57463A;
+}
+h2{
+    color: #746049;
+}
+.nav-list li:first-child{
+    margin-right: 82px;
+}
+.nav-list li:last-child{
+    margin-left: 82px;
+}
+.navigation{
+    height: 100%;
+}
+.navigation a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+button{
+    color: #F6F6F6;
+    background-color: #A1B29F;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #323232;
+}
+a{
+    text-decoration: none;
+    color:#323232;
+}
+.container{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 32px;
+}
+.description{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.description p{
+    margin-bottom: 10px;
+}
+.article h2{
+    font-size: 1.5em;
+}
+.article{
+    width: 500px;
+    margin-bottom: 32px;
+}
+.summary{
+    display: flex;
+    flex-direction: row;
+}
+.summary .photo{
+    margin-right: 20px;
+}
+.categories li{
+    margin-bottom: 20px;
+}
+.sidebar{
+    width: 250px;
+    padding-right: 80px;
+}
+.info{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.title{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: #A1B29F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 210px;
+    height: 140px;
+    width: 100%;
+    align-items: center;
+    line-height: 24px;
+    font-weight: 300;
+}
